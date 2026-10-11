@@ -1,0 +1,46 @@
+{
+  "coordinate_system": "map",
+  "workspace": {
+    "min_x": 0.0,
+    "max_x": 6.0,
+    "min_y": 0.0,
+    "max_y": 6.0,
+    "resolution": 0.5,
+    "frame": "map",
+    "units": "meters"
+  },
+  "robot": {
+    "position": {"x": 0.5, "y": 0.5},
+    "available_skills": [
+      "NAVIGATE_TO",
+      "LOCATE_OBJECT",
+      "PICK_UP",
+      "PLACE_OBJECT",
+      "HANDOFF",
+      "STOP",
+      "SPEAK"
+    ],
+    "speed_mps": 0.5
+  },
+  "objects": [
+    {
+      "id": "tool_screwdriver_01",
+      "label": "screwdriver",
+      "position": {"x": 4.5, "y": 1.0}
+    },
+    {
+      "id": "human_handoff_zone",
+      "label": "handoff zone",
+      "position": {"x": 1.0, "y": 4.5}
+    }
+  ],
+  "obstacles": [
+    {
+      "id": "workbench",
+      "min_x": 2.0,
+      "max_x": 3.0,
+      "min_y": 0.0,
+      "max_y": 3.0
+    }
+  ]
+}

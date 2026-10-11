@@ -1,0 +1,7 @@
+google-genai>=1.0,<2
+pydantic>=2.8,<3
+psycopg[binary]>=3.2,<4
+sentry-sdk>=2.20,<3
+python-dotenv>=1.0,<2
+pyttsx3>=2.98,<3
+pytest>=8.0,<9
